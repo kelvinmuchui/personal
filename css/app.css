@@ -1,5 +1,5 @@
 body{
-    background-image: url(../q8AiHs7.gif);
+    background-image: url(../403441.gif);
     background-size: cover;
 }
 #name{
@@ -21,7 +21,7 @@ body{
 li,ul{
      color: darkgoldenrod;
     margin-top: 2%;
-    font: 700 230px 'Great Vibes', Helvetica, sans-serif;
+    font: 700 230px ;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
     
 }
@@ -87,4 +87,10 @@ h2{
   transform: rotate(40deg);
 
 }
-.colums
+.footer{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: black
+
+
+}
