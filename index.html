@@ -5,12 +5,40 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kelvin muchui</title>
+      <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
       <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+
+      <script src="jquery.js"></script>
+
+		<script>
+			// We'll use a script to set the class to apply
+			$(document).ready(function(){
+				$(".face ul li a").click(function(){
+					parentid = $(this).parents("div").attr("id");
+					href=$(this).attr("href");
+					switch(parentid) {
+						case "face2":
+							if (href=="#face3")
+								$("#cube").addClass("rotateright");
+							else
+								$("#cube").addClass("rotateleft");
+							break;
+						default:
+							$("#cube").removeClass("rotateleft").removeClass("rotateright");
+							break;
+					}
+					return false;
+				});
+			});
+		</script>
   </head>
   <body>
+      <div id="container">
+          <div id="cube">
+              <div class="face" id="face2">
       <div class="nav">
       <nav aria-label="You are here:" role="navigation">
   <ul class="breadcrumbs">
@@ -25,7 +53,9 @@
       </div>
       <div>
       <div class="row">
-          <a href="#" class="button green">Button</a>
+          <a href="#" class="button green" id="effect1">Hire me</a>
+          <br>
+           <a href="#" class="button green" id="effect1">Hire me</a>
           
           
   <div class="small-3 small-centered columns" id="name">
@@ -36,9 +66,11 @@
           <p class ="skill"> I am a fullstack developer and also love developing games</p>
           </div>
 </div>
+                  </div>
       
-     
+              </div>
       </div>
+          </div>
         <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
