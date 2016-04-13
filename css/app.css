@@ -75,14 +75,16 @@ img{
     background-color: aqua;
     margin-left:0px;
     height: 670px;
-      -webkit-transform: rotate(40deg);
-  -moz-transform: rotate(40deg);
-  -o-transform: rotate(40deg);
-  transform: rotate(40deg);
-
 
 }
 .row{
     margin-left: 0px
+}
+h2{
+    -webkit-transform: rotate(40deg);
+  -moz-transform: rotate(40deg);
+  -o-transform: rotate(40deg);
+  transform: rotate(40deg);
+
 }
 .colums
