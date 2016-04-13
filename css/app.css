@@ -1,0 +1,67 @@
+body{
+    background-image: url(../q8AiHs7.gif);
+    background-size: cover;
+}
+#name{
+     font: 100 30px 'Oleo Script', Helvetica, sans-serif;
+  color:whitesmoke;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+     width: 100%;
+    padding-left: 35%;
+    text-align: center;
+        
+    
+}
+.nav{
+   
+    padding-left: 30%;
+    background-color: black;
+    height: 40%
+}
+li,ul{
+     color: darkgoldenrod;
+    margin-top: 2%;
+    font: 700 230px 'Great Vibes', Helvetica, sans-serif;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+    
+}
+img{
+    height: 40%;
+    width: 60%;
+    border-radius: 100%;
+}
+.progress-meter{
+    background-image: url(../ewgkenT.gif)
+}
+.skill{
+    color: chartreuse;
+}
+.button {
+
+	    font-family: Helvetica, Arial, sans-serif;
+
+	    font-size: 18px;
+
+	    font-weight: bold;
+
+	    color: #FFFFFF;
+
+	    padding: 10px 75px;
+
+	    margin: 0 20px;
+
+	    text-decoration: none;
+
+	}
+.green {
+
+	    border: solid 1px #3b7200;
+	    background-color: #88c72a;
+    transition: border-radius 1s;
+	    -webkit-transition: border-radius 1s;
+	    -moz-transition: border-radius 1s;
+	    -o-transition: border-radius 1s;
+	    -ms-transition: border-radius 1s;
+
+	}
+
