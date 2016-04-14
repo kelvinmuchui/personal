@@ -79,17 +79,15 @@ img{
 .row{
     margin-left: 0px
 }
-h2{
-    -webkit-transform: rotate(40deg);
-  -moz-transform: rotate(40deg);
-  -o-transform: rotate(40deg);
-  transform: rotate(40deg);
 
-}
 .footer{
     margin-bottom: 0px;
     padding-bottom: 0px;
     background-color: black
 
+
+}
+#other{
+    background-color: whitesmoke;
 
 }
