@@ -70,9 +70,7 @@ img{
     font-size: 30px;
     color: antiquewhite;
     margin-top: 0%;
-    background-color: rgba(206, 74, 74, 0.6);
     margin-left:0px;
-    margin-top: 50%;
 
 
 }
@@ -88,6 +86,15 @@ img{
 
 }
 #other{
-    background-color: whitesmoke;
+font-family: 'Sofia', cursive;
 
+}
+#other:hover{
+    -webkit-transform: rotateZ(-20deg);
+        -ms-transform: rotateZ(-20deg);
+        transform: rotateZ(-20deg);
+    border-radius: 50%;
+}
+#skill{
+    padding-right:  -left: 50%;
 }
