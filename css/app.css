@@ -1,5 +1,5 @@
 body{
-    background-image: url(../403441.gif);
+    background-image:url(../img/Hi-Tech-Wallpaper-31.jpg);
     background-size: cover;
 }
 #name{
@@ -79,12 +79,18 @@ li,ul{
 }
 
 .footer{
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    background-color: black
 
-
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
+
+
+
 #other{
 font-family: 'Sofia', cursive;
 
