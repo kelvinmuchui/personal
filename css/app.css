@@ -3,12 +3,15 @@ body{
     background-size: cover;
 }
 #name{
-     font: 100 30px 'Oleo Script', Helvetica, sans-serif;
+
   color:whitesmoke;
   text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
      width: 100%;
     padding-left: 35%;
     text-align: center;
+    font: 400 43px 'Great Vibes', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1)
         
     
 }
@@ -143,4 +146,17 @@ input[type=submit] {
 li{
     margin-left: 10px;
     margin-right: 20px;
+}
+#number{
+    background-color: rgba(52, 48, 48, 0.1);
+    margin-top: 20%;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+
+    color:antiquewhite;
+    text-align: center;
+    font: 400 43px 'Great Vibes', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1)
 }
