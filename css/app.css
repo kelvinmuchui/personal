@@ -92,14 +92,7 @@ li,ul{
 font-family: 'Sofia', cursive;
 
 }
-#other:hover{
-    -webkit-transform: rotateZ(-20deg);
-        -ms-transform: rotateZ(-20deg);
-        transform: rotateZ(-20deg);
-    border-radius: 50%;
-}
 #skill{
-    padding-right:  -left: 50%;
 }
 input[type=submit] {
 		float:						right;
